@@ -1,11 +1,42 @@
-.header__nav {
-}
 .nav {
-	font-size: 18px;
+	padding: 16px 0;
+	background: #ffc95c;
+	// .nav__row
+
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	// .nav__list
+
+	&__list {
+		display: flex;
+		gap: 30px;
+	}
+
+	// .nav__item
+
+	&__item {
+		display: flex;
+		align-items: center;
+		font-family: var(--third-family);
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 171%;
+		color:#141718;
+	}
+
+	// .nav__btns
+
+	&__btns {}
 }
-.nav__list {
-	display: flex;
-	column-gap: 30px;
-}
-.active {
-}
+
+.container {}
+
+.logo {}
+
+.icon {}
+
+.icon--chevron-down {}

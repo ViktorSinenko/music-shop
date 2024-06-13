@@ -1,0 +1,39 @@
+.tagline {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   align-items: center;
+   background: #000;
+   padding: 15px;
+
+   &__title {
+      font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 157%;
+      text-align: center;
+      color: #fff;
+   }
+
+   // .tagline__subtitle
+
+   &__link{
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 131%;
+      color: var(--yellow);
+
+      border-bottom: 1px solid var(--yellow);
+   }
+
+   &__close{
+      position: absolute;
+      top: 20px;
+      right: 16px;
+   }
+}

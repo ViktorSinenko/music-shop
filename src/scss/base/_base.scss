@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+
 
 html {
 	scroll-behavior: smooth;
@@ -10,6 +10,7 @@ body {
 	color: var(--text-color);
 	font-family: var(--font-main);
 	text-wrap: balance;
+	max-width: 100vw;
 }
 
 img {
